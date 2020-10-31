@@ -1,0 +1,311 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+
+body{
+    background-image: url(../web/techtravel1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+background-position: 0px 0px 0px -200px;
+}
+
+header {
+    background-color: rgba(243, 223, 245, 0.3);
+    text-align: center;
+background-position: 100%;
+margin:20px;
+padding: 5px;
+height: 150px;
+}
+
+header h1 {
+     text-align:center;
+     color: rgb(100, 39, 73);
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-left: 20px;
+}
+
+header ul {
+padding: 10px;
+list-style-type: none;
+text-align: center;
+
+}
+
+header li {
+    text-shadow: lightcoral;
+display: inline;
+padding: 10px;
+
+}
+
+header li:hover {
+    cursor: pointer;
+    color: darkblue;
+}
+
+p{
+color:black;
+text-align: left;
+font-size: 20px;
+
+}
+
+.box1{
+background-color:rgba(253, 251, 251, 0.5);
+width: 72%;
+height: 250px; 
+overflow: hidden;
+margin-left: 20px;
+margin-top: 20px;
+text-align: left;
+font-size: 20px;
+background-image:url();
+background-repeat: no-repeat;
+color:rgb(100, 39, 73) ;
+padding: 20px;
+}
+
+.box1 h1{
+
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    color:rgb(100, 39, 73) ;
+}
+
+.box1 p{
+line-height: 2px;
+font-size: 30px;
+font-style: italic;
+text-align:left;
+color:rgb(100, 39, 73) ;
+
+
+}
+
+.box2{
+height: 397px;
+width: 72%;
+background-color: rgb(238, 230, 238);
+overflow: hidden;
+color:rgb(100, 39, 73) ;
+margin-left: 20px;
+margin-top: 20px;
+text-align:left;
+background-image: url(../web/Desktop-travel-essential-items-HD-picture.jpg);
+background-position: right;
+background-repeat: no-repeat;
+padding: 20px;
+
+}
+
+.box2 h2{
+
+    font-weight: normal;
+font-style: italic;
+
+}
+
+.box2 button{
+    background-color: rgba(126, 122, 122, 0.7);
+    color: rgba(233, 235, 240);
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+    transition: all 0.3s;
+
+}
+
+.box2 button:hover {
+    cursor: pointer;
+    background-color: rgb(139, 137, 137);
+    
+}
+
+
+
+.box3 {
+
+    width: 25%;
+    position: absolute;
+height: 1810px;
+top: 189px;
+right: 0px;
+background-color: rgba(245, 234, 239, 0.7);
+margin-right: 20px;
+padding: 50px;
+padding-top: 20px;
+}
+
+.box3 p{
+text-align: center;
+line-height: 20px;
+color:rgb(100, 39, 73) ;
+}
+
+
+.box4 {
+text-align: center;
+margin-top: 20px;
+margin-left: 20px;
+width: 72%;
+background-color: rgb(241, 238, 238);
+padding-top:10px;
+padding: bottom 10px;
+font-size: 20px;
+font-style: normal;
+padding-left: 20px;
+
+}
+
+.box4 p{
+text-align: center;
+
+}
+
+.box5 {
+    padding: 20px;
+    margin-top:30px;
+    margin-left: 20px;
+    width: 72%;
+    background-color: rgb(241, 182, 229,0.3);
+    color: rgb(39, 22, 31);
+    height: 350px;
+    
+
+    }
+
+.box5 form {
+        width: 500px;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    
+    
+    .box5 label {
+        font-weight: bold;
+        font-size: 18px;
+        padding-left: 5px;
+        position:center;
+        
+    }
+    
+    .box5 input,
+    .box5 textarea {
+        display: block;
+        width: 100%;
+        height: 35px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border: 1px solid rgb(180,180,180);
+        font-size: 18px;
+        padding: 0px 20px;
+        
+    
+    }
+    
+.box5 textarea {
+        height: 150px;
+    
+    }
+    
+.box5 button {
+        width: 100%;
+        height: 50px;
+        font-size: 18px;
+        background-color: rgb(151, 128, 143);;
+        color: white;
+        border-radius: 10px;
+        text-transform: uppercase;
+        border: 1px solid rgb(30,56,30);
+        letter-spacing: 2px;
+        transition: all 0.3s;
+
+    }
+    
+.box5 button:hover {
+        cursor: pointer;
+        background-color:rgb(126, 85, 110); 
+    }
+
+
+    .aside {
+list-style-position: inside;
+width: 150px;
+height: 100px;
+scrollbar-width: 200px;
+padding: 10px;
+    }
+
+    .aside border{
+
+border-style: 1px solid  rgb(143, 131,143);
+border-radius: 0px;
+border-block-end-style: groove;
+
+    }
+
+    .aside ul {
+            float: right;
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+        }
+
+
+   .aside li {
+        padding: 10px 20px;
+        display: block;
+        width: 190px;
+        
+    }
+    
+    .aside li:hover {
+        background-color: rgb(156, 130, 155);
+        cursor: pointer;
+    }
+
+    .dropdown {
+        position: relative;
+    }
+    
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    
+    .dropdown-menu {
+        position: absolute;
+        top: 38px;
+        left: 0px;
+        display: none;
+    }
+    .dropdown-menu li {
+        display: block;
+        width: 150px;
+    }
+    
+    .clear {
+        float: none;
+        clear: both;
+    }
+    
+
+    .footer {
+        margin-top: 20px;
+        text-align: center;
+        background-color: rgba(241, 59, 172, 0.3);
+        width: 1480px;
+        height: 20px;
+        padding-left: 0px;
+    }
